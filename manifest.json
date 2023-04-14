@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Format OwlBot PR Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "hello.png"
+  }
+}
