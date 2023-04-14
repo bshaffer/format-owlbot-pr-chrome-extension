@@ -14,7 +14,7 @@ if (titleField) {
     var messageField = document.getElementById('merge_message_field');
     console.log("FROM: \n" + messageField.value)
     messageField.value = messageField.value
-        .replace(new RegExp('^\\* ' + commitLine + "\n+"), '')
+        .replace(new RegExp('^\\* ' + commitLine.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + "\n+"), '')
         .replaceAll("\n\nSee https://github.com/googleapis/repo-automation-bots/blob/main/packages/owl-bot/README.md", '')
         .replaceAll("\n\n---------", '')
         .replaceAll("\n\n* 🦉 Updates from OwlBot post-processor", '')
