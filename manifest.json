@@ -8,6 +8,6 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_icon": "hello.png"
+    "default_icon": "owl.png"
   }
 }
