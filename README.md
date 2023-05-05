@@ -12,6 +12,9 @@ This PR allows us to do the following things to an owlbot (automated) PR message
     - This ensures it's not duplicated by release-please
     - Usually this line is prefixed by an asterisk
 
+[Here is a demo video](https://drive.google.com/file/d/1mq5ODB3L_fRtqhKulcEC1wpKeIfRfla3/view?usp=share_link)
+of the extension being used!
+
 # Installation
 
 1. Clone this directory locally
